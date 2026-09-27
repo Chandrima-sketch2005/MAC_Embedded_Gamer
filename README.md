@@ -26,8 +26,9 @@ Group Project
 * **Non-Volatile Persistence:** EEPROM integration for high-score tracking across power cycles.
 
 ## 📂 Repository Structure
-├── src/              # Embedded C++ source code & graphics pipeline
-├── include/          # PROGMEM bitmaps, font data, and display drivers
+├── src/              # Embedded C++ source code & graphics pipeline Folder
+├── src/main.cpp      # PROGMEM bitmaps, font data, and display drivers; Initial Game-Boy inspired Set-Up
+├── src/ski_game.cpp  # Olympics Ski-inspired trademark Game.
 ├── hardware/         # Circuit schematics and sensor wiring diagrams
 ├── media             # Real-time testing videos & images for reference
 └── README.md         # Documentation
