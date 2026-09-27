@@ -8,7 +8,7 @@ An embedded system built on the ATmega328P microcontroller that pairs low-latenc
 ## 📌 Project Overview
 The MAC platform combines hardware sensor processing (ultrasonic, film pressure, potentiometer) with a custom graphics pipeline. The system executes a menu-driven Finite State Machine (FSM) written in Embedded C++, incorporating sensor calibration routines, interactive game states, and real-time OLED rendering without using dynamic memory allocation.
 
-## Project Type
+## 🤝 Project Type
 Group Project
 
 ## 🛠️ Hardware & Tools
