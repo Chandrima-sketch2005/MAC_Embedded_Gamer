@@ -22,6 +22,9 @@ User Controls & Audio: Potentiometer at A0, Reset Button at D2, Piezo Speaker/Bu
 | | System Reset | `D2` | Reset Switch (`INPUT_PULLUP`) |
 | | Speaker | `D4` | Piezo Tone Generator |
 
-![Hardware Wiring Diagram](hardware/schematic.png) NOTE!: THE Schematic is AI-GENERATED SO CONNECTIONS ON THE PICTURE MAY NOT MATCH THE REAL PINS.
-![Hardware Wiring Diagram](hardware/diagram.png)
-![Hardware Wiring Diagram](hardware/workflow.png)
+
+
+ NOTE!: THE Schematic is AI-GENERATED SO CONNECTIONS ON THE PICTURE MAY NOT MATCH THE REAL PINS.
+![Embedded MAC-Gamer Workflow](hardware/workflow_mac.png)
+![Hardware Schematics Diagram](hardware/schematics_mac.png)
+![Hardware Wiring Diagram](hardware/diagram_mac.jpeg)
