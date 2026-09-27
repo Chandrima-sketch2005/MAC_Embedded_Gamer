@@ -1,0 +1,27 @@
+**Connections as done on Arduino Uno, and Supporting Peripherals.**
+
+Adafruit OLED Display (128x64): Uses SPI bus (MOSI=11, CLK=13, DC=7, CS=6, RESET=8).
+HC-SR04 Ultrasonic Distance Sensor: Connected to Trig=9 and Echo=3.
+Flex Sensor (Glove/Finger): Analog input A1 with Calibration Button D5.
+User Controls & Audio: Potentiometer at A0, Reset Button at D2, Piezo Speaker/Buzzer at D4.
+
+### Pin Assignment Table
+
+| Component | Hardware Module | Arduino Pin | Description |
+| :--- | :--- | :--- | :--- |
+| **Display** | SSD1306 OLED | `D11` (MOSI) | SPI Data Line |
+| | | `D13` (CLK) | SPI Clock Line |
+| | | `D7` (DC) | Data / Command Select |
+| | | `D6` (CS) | Chip Select |
+| | | `D8` (RESET) | Display Hardware Reset |
+| **Distance Sensor** | HC-SR04 Ultrasonic | `D9` | Trigger Output |
+| | | `D3` | Echo Input |
+| **Flex Glove Input** | Custom Flex Sensor | `A1` | Analog Bend Measurement |
+| | Calibration Button | `D5` | Push Button (`INPUT_PULLUP`) |
+| **UI & Audio** | Potentiometer | `A0` | Menu Option Selector |
+| | System Reset | `D2` | Reset Switch (`INPUT_PULLUP`) |
+| | Speaker | `D4` | Piezo Tone Generator |
+
+![Hardware Wiring Diagram](hardware/schematic.png) NOTE!: THE Schematic is AI-GENERATED SO CONNECTIONS ON THE PICTURE MAY NOT MATCH THE REAL PINS.
+![Hardware Wiring Diagram](hardware/diagram.png)
+![Hardware Wiring Diagram](hardware/workflow.png)
